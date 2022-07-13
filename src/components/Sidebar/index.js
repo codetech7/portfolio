@@ -26,16 +26,16 @@ const Sidebar = () => (
 
     <ul>
         <li>
-            <a href='www.google.com' target="_blank" rel='noferrer'><FontAwesomeIcon icon={faLinkedin} color="#4d4d4e"></FontAwesomeIcon></a>
+            <a href='https://www.linkedin.com/in/aaron-israel-06158a236/' target="_blank" rel="noopener"><FontAwesomeIcon icon={faLinkedin} color="#4d4d4e"></FontAwesomeIcon></a>
         </li>
         <li>
-        <a href='www.google.com' target="_blank" rel='noferrer'><FontAwesomeIcon icon={faGithub} color="#4d4d4e"></FontAwesomeIcon></a>
+        <a href='https://github.com/codetech7' target="_blank" rel='noopener'><FontAwesomeIcon icon={faGithub} color="#4d4d4e"></FontAwesomeIcon></a>
         </li>
         <li>
-        <a href='www.google.com' target="_blank" rel='noferrer'><FontAwesomeIcon icon={faTwitter} color="#4d4d4e"></FontAwesomeIcon></a>
+        <a href='https://twitter.com/Adeboly01' target="_blank" rel='noopener'><FontAwesomeIcon icon={faTwitter} color="#4d4d4e"></FontAwesomeIcon></a>
         </li>
         <li>
-        <a href='www.google.com' target="_blank" rel='noferrer'><FontAwesomeIcon icon={faDiscord} color="#4d4d4e"></FontAwesomeIcon></a>
+        <a href='https://discordapp.com/users/854883240599093289' target="_blank" rel='noopener'><FontAwesomeIcon icon={faDiscord} color="#4d4d4e"></FontAwesomeIcon></a>
         </li>
     </ul>
   </div>
