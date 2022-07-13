@@ -3,6 +3,7 @@ import {useState, useEffect, useRef} from 'react'
 import AnimatedLetter from "../AnimatedLetters";
 import Loader from "react-loaders";
 import emailjs from '@emailjs/browser'
+import {MapContainer, Popup, TileLayer, Marker} from 'react-leaflet'
 
 
 const Contact = () => {
@@ -22,7 +23,7 @@ const Contact = () => {
         e.preventDefault();
     
         emailjs.sendForm('service_2cxxdfd', 'template_5mwcqif', formSubmit.current, 'gWwvQsIj_RrSrTjeR')
-          .then((result) => {
+          .then(() => {
               alert('message successfully sent');
               window.location.reload(false);
           }, () => {
@@ -64,6 +65,25 @@ const Contact = () => {
                
                 </div>
             </div>
+
+            <div className="info-map">
+                Aaron Israel,
+                <br />
+                Africa
+                <br/>
+                <span>boluaaron@gmail.com</span>
+
+            </div>
+
+            <div className="map-wrap">
+                <MapContainer center={[6.516622416869759, 3.3881495412026017]} zoom = {13}>
+                    <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
+                    <Marker position = {[6.516622416869759, 3.3881495412026017]}>
+                        <Popup>Aaron Lives Here, Code lives here  </Popup>
+                    </Marker>
+                </MapContainer>
+                
+            </div> 
             
 
         </div>
