@@ -2,7 +2,7 @@ import "./index.scss";
 import AnimatedLetter from "../AnimatedLetters";
 import { useState, useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faAngular, faGithubAlt, faEthereum, faBitcoin, faPython, faReact, faLinkedin, faJs, faRust, faYCombinator, faGolang, faAws } from "@fortawesome/free-brands-svg-icons";
+import { faEthereum, faReact, faLinkedin, faJs, faRust, faGolang, faAws } from "@fortawesome/free-brands-svg-icons";
 // import { faHardHat } from "@fortawesome/free-solid-svg-icons";
 import {Loader} from 'react-loaders'
 const About = ()=>{
