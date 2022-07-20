@@ -94,6 +94,17 @@
             }
         }
 
+        a.portfolio-link{
+            &:after{
+                content: 'PORTFOLIO';
+                // font-size: 8px;
+                // text-size-adjust: auto;
+                // font-size-adjust: inherit;
+                // border: #ffd700 solid;
+                // width: 7px;
+            }
+        }
+
     }
 
     ul{

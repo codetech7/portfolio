@@ -39,7 +39,7 @@
     animation-delay: 1s ;
 }
 
-.about-page, .contact-page{
+.about-page, .contact-page, .portfolio-page{
     .text-zone{
         position: absolute;
         left: 10%;
@@ -98,6 +98,46 @@
         }
 
         
+    }
+
+    h1{
+        font-size: 53px;
+        font-family: 'Coolvetica';
+        color: #ffd700;
+        // font-weight: 400;
+        // border: #ffd700 solid;
+        margin-top: 0;
+        position: relative;
+        margin-bottom: 40px;
+        // padding: 0px;
+        left: 10px;
+
+        &::before{
+            content: "<h1>";
+            font-family: 'La Belle Aurora';
+            font-size: 18px;
+            position: absolute;
+            margin-top: -10px;
+            left: -10px;
+            opacity: 0.6;
+            line-height: 48px;
+        
+            // border: #ffd700 solid;
+
+        }
+
+        &::after{
+            content: '</h1>';
+            font-family: 'La Belle Aurora';
+            font-size: 18px;
+            position: absolute;
+            margin-top: -10px;
+            left: 200px;
+            top: 75px;
+            opacity: 0.6;
+            line-height: 18px;
+        }
+
     }
 
     p{

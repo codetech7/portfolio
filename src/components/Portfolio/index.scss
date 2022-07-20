@@ -1,0 +1,15 @@
+.portfolio-page{
+    padding-left: 100px;
+    padding-right: 50px;
+    width: calc(100% - 150px);
+    border-right: #ffd700 dotted;
+    position: absolute;
+    height: 100%;
+    overflow: auto;
+
+    h1.page-title{
+        margin-top: 70px;
+        margin-left: 70px;
+    }
+    
+}

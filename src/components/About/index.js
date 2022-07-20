@@ -37,7 +37,7 @@ const About = ()=>{
                 <p><em>P.S: It might be obvious at this point that I am a writer too...or I wish I was. If the role involves writing...then its the "right thing"...&lt;Rhymes / &gt;</em></p>
                 <p><code>I am not your regular everyday geek prying behind huge glasses(I use glasses though...not huge) and long sleeve checks with '90s headphones, docking behind Cathode Ray Tubes and a linux shell(no beef Ubuntu fans), 
                 when I am not tinkering away at smart contract vulnerabilities(There sure are a ton of them these days) or hooks in React, you would often catch me hosting tournaments on Lichess.org, reading psychology hacks on Quora(quite underrated IMO), answering questions on codeGrepper(A better stack overflow),
-                 learning a new chord progression on my acoustic, chatting with my old buddies from college(not that old actually...graduated recently), making new connections on <FontAwesomeIcon icon={faLinkedin}/> or composing a new song for my woman(Yes! I have a life).</code></p>
+                 learning a new chord progression on my acoustic, chatting with my old buddies from college(not that old actually...graduated recently), making new connections on <FontAwesomeIcon icon={faLinkedin}/> or writing a new post for my blog(The cryptocoder).</code></p>
                  </div>
             </div>
             <div className="skill-icons">
