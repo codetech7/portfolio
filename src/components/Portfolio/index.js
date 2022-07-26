@@ -8,16 +8,16 @@ import Projects from './Projects';
 
 const Portfolio = () => {
 
-    const data =  {
-        "portfolio" : [
-       {
-            "cover": require("../../assets/images/portfolioImages/one.jpg"),
-            "title": "Ethereum based charity donations tracking solution",
-            "url": "https://africharitydao.herokuapp.com",
-            "description": "Solidity, ReactJS, Web3JS, Next, Heroku, Git"
-        }
-    ]
-};
+//     const data =  {
+//         "portfolio" : [
+//        {
+//             "cover": require("../../assets/images/portfolioImages/one.jpg"),
+//             "title": "Ethereum based charity donations tracking solution",
+//             "url": "https://africharitydao.herokuapp.com",
+//             "description": "Solidity, ReactJS, Web3JS, Next, Heroku, Git"
+//         }
+//     ]
+// };
      
     
 
@@ -34,23 +34,23 @@ const Portfolio = () => {
      
     }, [])
 
-    const renderPortfolio = (portfolio) => {
+    // const renderPortfolio = (portfolio) => {
         
 
-        return(
-            portfolio.map((port, idx) => {
+    //     return(
+    //         portfolio.map((port, idx) => {
 
-        //  console.log(typeof(port.cover));
+    //     //  console.log(typeof(port.cover));
 
-              return (
-                <div className='' key={idx} >
-                    <img alt={`made with ${port.description}`} src = {port['cover']} />
-                </div>
-            )
-            })
+    //           return (
+    //             <div className='' key={idx} >
+    //                 <img alt={`made with ${port.description}`} src = {port['cover']} />
+    //             </div>
+    //         )
+    //         })
 
-        )
-    }
+    //     )
+    // }
     
   return (
     <>
