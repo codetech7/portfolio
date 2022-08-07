@@ -92,3 +92,41 @@
         }
     }
 }
+
+@media (max-width:650px) {
+    .text-zone{
+        font-size: 10px !important;
+        width: 100vw !important;
+        height: 80vh !important;
+        border: red solid 1px;
+        margin-left: 0 !important;
+        h1{
+            font-size: 25px;
+            &::before{
+                content: '<h1>';
+                font-family: 'La Belle Aurore';
+                color:#ffd700;
+                font-size: 5vw;
+                position: absolute;
+                margin-top: -65px;
+                left: 15px;
+                opacity: 0.6;
+            }
+    
+            &::after{
+                content: '<h1>';
+                font-family: 'La Belle Aurore';
+                color:#ffd700;
+                font-size: 18px;
+                position: absolute;
+                margin-top: 18px;
+                margin-left: 20px;
+                animation: fadeIn 1s 1.7s backwards;
+                opacity: 1.0;
+    
+            }
+        }
+    }
+
+    
+}

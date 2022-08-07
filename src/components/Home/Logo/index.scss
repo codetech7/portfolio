@@ -35,3 +35,20 @@
         stroke-width: 20px;
     }
 }
+
+@media (max-width:650px) {
+    .logo-container{
+        position: absolute;
+        left: -50px;
+        border: red solid 1px;
+        // display: flex;
+        justify-content: center;
+        align-items: left;
+        align-content: center;
+        z-index: -1;
+        // size: 0ch;
+        top: 700px;
+        width: 70vw;
+        height: 120vh;
+    }
+}

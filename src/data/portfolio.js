@@ -15,9 +15,9 @@ module.exports = {
         },
         {
             "cover": require("../assets/images/portfolioImages/EthereumLottery.JPG"),
-            "title": "Ethereum based charity donations tracking solution",
+            "title": "",
             "url": "https://africharitydao.herokuapp.com",
-            "description": "Solidity, ReactJS, Web3JS, Next, Heroku, Git"
+            "description": ""
         },
         {
             "cover": require("../assets/images/portfolioImages/Multisigwallet.JPG"),
