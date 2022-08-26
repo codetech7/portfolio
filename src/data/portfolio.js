@@ -4,7 +4,7 @@ module.exports = {
         {
             "cover": require("../assets/images/portfolioImages/BuyCoffee.JPG"),
             "title": "buy me a coffee with ether",
-            "url": "https://github.com/codetech7/BuyMeAcoffee",
+            "url": "https://buymeacoffee-solidity-defi-tipping-app-1.aaronisrael.repl.co",
             "description": "Solidity, ReactJS, Web3JS, Next, Heroku, Git"
         },
         {
